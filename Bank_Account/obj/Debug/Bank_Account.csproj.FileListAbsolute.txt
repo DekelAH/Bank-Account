@@ -1,0 +1,10 @@
+D:\Programming\Github Projects\Bank-Account\Bank_Account\bin\Debug\Bank_Account.exe.config
+D:\Programming\Github Projects\Bank-Account\Bank_Account\bin\Debug\Bank_Account.exe
+D:\Programming\Github Projects\Bank-Account\Bank_Account\bin\Debug\Bank_Account.pdb
+D:\Programming\Github Projects\Bank-Account\Bank_Account\obj\Debug\Bank_Account.csprojAssemblyReference.cache
+D:\Programming\Github Projects\Bank-Account\Bank_Account\obj\Debug\Bank_Account.csproj.CoreCompileInputs.cache
+D:\Programming\Github Projects\Bank-Account\Bank_Account\obj\Debug\Bank_Account.exe
+D:\Programming\Github Projects\Bank-Account\Bank_Account\obj\Debug\Bank_Account.pdb
+D:\Programming\Github Projects\Bank-Account\Bank_Account\bin\Debug\ModelAndLogic.dll
+D:\Programming\Github Projects\Bank-Account\Bank_Account\bin\Debug\ModelAndLogic.pdb
+D:\Programming\Github Projects\Bank-Account\Bank_Account\obj\Debug\Bank_Account.csproj.CopyComplete

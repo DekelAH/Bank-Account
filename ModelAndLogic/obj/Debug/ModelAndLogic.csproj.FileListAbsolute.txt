@@ -1,0 +1,5 @@
+D:\Programming\Github Projects\Bank-Account\ModelAndLogic\bin\Debug\ModelAndLogic.dll
+D:\Programming\Github Projects\Bank-Account\ModelAndLogic\bin\Debug\ModelAndLogic.pdb
+D:\Programming\Github Projects\Bank-Account\ModelAndLogic\obj\Debug\ModelAndLogic.csproj.CoreCompileInputs.cache
+D:\Programming\Github Projects\Bank-Account\ModelAndLogic\obj\Debug\ModelAndLogic.dll
+D:\Programming\Github Projects\Bank-Account\ModelAndLogic\obj\Debug\ModelAndLogic.pdb
