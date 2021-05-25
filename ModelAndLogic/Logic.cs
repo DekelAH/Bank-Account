@@ -12,18 +12,18 @@ namespace ModelAndLogic
         public void Withdraw(double amount)
         {
             propAccess.CurrentAmount -= amount;
-            Console.WriteLine($"Your current balance is: {propAccess.CurrentAmount}$");
+            Console.WriteLine($"Your current balance is: {propAccess.CurrentAmount}$\n");
         }
 
         public void Deposit(double amount)
         {
             propAccess.CurrentAmount += amount;
-            Console.WriteLine($"Your current balance is: {propAccess.CurrentAmount}$");
+            Console.WriteLine($"Your current balance is: {propAccess.CurrentAmount}$\n");
         }
 
         public void CurrentBalance()
         {
-            Console.WriteLine($"Your current balance is: {propAccess.CurrentAmount}$");
+            Console.WriteLine($"Your current balance is: {propAccess.CurrentAmount}$\n");
         }
 
     }

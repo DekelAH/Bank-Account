@@ -3,3 +3,4 @@ D:\Programming\Github Projects\Bank-Account\ModelAndLogic\bin\Debug\ModelAndLogi
 D:\Programming\Github Projects\Bank-Account\ModelAndLogic\obj\Debug\ModelAndLogic.csproj.CoreCompileInputs.cache
 D:\Programming\Github Projects\Bank-Account\ModelAndLogic\obj\Debug\ModelAndLogic.dll
 D:\Programming\Github Projects\Bank-Account\ModelAndLogic\obj\Debug\ModelAndLogic.pdb
+D:\Programming\Github Projects\Bank-Account\ModelAndLogic\obj\Debug\ModelAndLogic.csprojAssemblyReference.cache

@@ -27,7 +27,6 @@ namespace Bank_Account
                 Console.Write("Please enter a valid input! Try again: ");
                 firstNameInput = Console.ReadLine();
             }
-            newAccount.FirstName = firstNameInput;
 
             Console.Write("Last Name (Minimun 2 characters): ");
             string lastNameInput = Console.ReadLine();
@@ -100,22 +99,29 @@ namespace Bank_Account
                         Console.Clear();
                         Console.Write("Please enter an amount to deposit to your account: ");
                         double amountToDeposit;
-                        while (!double.TryParse(Console.ReadLine(), out amountToDeposit))
+                        if (double.TryParse(Console.ReadLine(), out amountToDeposit))
                         {
-                            Console.WriteLine("Please enter a valid input! Try again: ");
+                            logicAccess.Deposit(amountToDeposit);
                         }
-                        logicAccess.Deposit(amountToDeposit);
+                        else
+                        {
+                            Console.WriteLine("Please enter a valid input! Try again.");
+                            continue;
+                        }
                         break;
                     case "4":
                         Console.Clear();
                         Console.Write("Please enter an amount to withdraw from your account: ");
                         double amountToWithdraw;
-                        while (!double.TryParse(Console.ReadLine(), out amountToWithdraw))
+                        if (double.TryParse(Console.ReadLine(), out amountToWithdraw))
                         {
-                            Console.WriteLine("Please enter a valid input! Try again: ");
+                            logicAccess.Withdraw(amountToWithdraw);
                         }
-
-                        logicAccess.Withdraw(amountToWithdraw);
+                        else
+                        {
+                            Console.WriteLine("Please enter a valid input! Try again.");
+                            continue;
+                        }
                         break;
                     case "5":
                         Console.Clear();
