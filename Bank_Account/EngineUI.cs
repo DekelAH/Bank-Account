@@ -99,7 +99,7 @@ namespace Bank_Account
                         Console.Clear();
                         Console.Write("Please enter an amount to deposit to your account: ");
                         double amountToDeposit;
-                        if (double.TryParse(Console.ReadLine(), out amountToDeposit))
+                        if (double.TryParse(Console.ReadLine(), out amountToDeposit) && amountToDeposit > 0)
                         {
                             logicAccess.Deposit(amountToDeposit);
                         }
